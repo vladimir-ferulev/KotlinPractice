@@ -10,12 +10,12 @@ sealed class Section {
             class CARD : Section()
             class TRUNK : Section()
         }
-    }123asd
-asd
-    class MTP(vqqqqqqqqqal subsection: Section) : Section() {
+    }
+
+    class MTP(val subsection: Section) : Section() {
         sealed class Section {
             class MTPS : Section()
             class MTP : Section()
-        }dd
+        }
     }
 }
