@@ -10,7 +10,7 @@ sealed class Section {
             class CARD : Section()
             class TRUNK : Section()
         }
-    }
+    }123asd
 
     class MTP(val subsection: Section) : Section() {
         sealed class Section {
