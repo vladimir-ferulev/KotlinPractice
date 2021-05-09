@@ -4,31 +4,6 @@ typealias MyHandler = (Int, String) -> Unit
 typealias Dispatch = (action: Action) -> Unit
 
 fun main(args: Array<String>) {
-//    var dog: Dog? = null
-//    val ageNull = dog?.apply(fun Dog.() {
-//        this.age
-//    })   // let не выполнится, так как dog == null. В переменную установится null
-//    println(ageNull)
-//    dog = Dog(10, "Name")
-//    var l = dog.apply(fun Dog.() {
-//        this.age = 5
-//    })       // it - это сам объект dog. В age будет устанволен результат выполнения переданной функции
-//    println(l)
-//
-//    with (dog, fun Dog.() {
-//        this.age = 5
-//    })
-
-//    var list = listOf(1, 4, 1, 5)
-//    listOfNotNull(list.isDistinct().takeUnless(fun(it: Boolean): Boolean {
-//        return it
-//    })?.run { println(this)})
-//
-
-//        .run(fun Boolean.(): Any {
-//        return lang("MtpL3NiValidationUnique")
-//    })) +
-//            nis.map { MtpL3ValidationNi(it.toString(), lang) }.flatten()
 
 }
 
